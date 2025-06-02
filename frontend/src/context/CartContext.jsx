@@ -16,7 +16,8 @@ export const useCart = () => {
 export const CartProvider = ({ children }) => {
   const [cartItems, setCartItems] = useState([])
   const { user } = useAuth()
-  const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000/api"
+  const API_URL = "https://shopease-4i1y.onrender.com/api" || "http://localhost:5000/api"
+
 
   useEffect(() => {
     if (user) {
