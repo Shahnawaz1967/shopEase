@@ -1,3 +1,6 @@
+## i have deployed backedn but some problem occur will figyre it out , so backend is not working right now and I will fix out in coming days"
+
+
 # MERN Stack eCommerce Project
 
 Full-stack eCommerce app built with MongoDB, Express.js, React.js, and Node.js.
@@ -41,4 +44,5 @@ cd frontend
 npm install
 # Create .env file with API URL
 npm run dev
+
 
