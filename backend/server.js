@@ -29,7 +29,7 @@ app.use(limiter)
 //  CORS
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL || "http://localhost:3000",
+    origin: "https://shop-ease-beta-ivory.vercel.app/" || "http://localhost:3000",
     credentials: true,
   })
 )
